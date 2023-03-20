@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "optionalDependencies": {
-    "fsevents": "^2.1.2",
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -20,5 +17,8 @@
     "express": "^4.18.2",
     "nodemon": "^2.0.21",
     "stripe": "^11.15.0"
-  }
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.2",
+  },
 }
